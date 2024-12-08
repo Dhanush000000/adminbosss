@@ -78,18 +78,18 @@ async def op(_, m :Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Channel", url="https://t.me/+q1uneCWs9OkwZDc9")
+                    InlineKeyboardButton("Channel", url="https://t.me/+41b4MOF8hOk0YWFl")
                 ]
             ]
         )
         add_user(m.from_user.id)
-        await m.reply_photo("https://envs.sh/LHd.jpg", caption="**🦊 Hello {}!\nI'm an auto approve Bot.**".format(m.from_user.mention), reply_markup=keyboard)
+        await m.reply_photo("https://envs.sh/1QZ.jpg", caption="**🦊 Hello {}!\nI'm an auto approve Bot.**".format(m.from_user.mention), reply_markup=keyboard)
 
     elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
         keyboar = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/LOOCIFARACCEPT_Bot?startgroup")
+                    InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/Autoaccept23_bot?startgroup")
                 ]
             ]
         )
@@ -126,7 +126,7 @@ async def chk(_, cb : CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Channel", url="https://t.me/+q1uneCWs9OkwZDc9")
+                    InlineKeyboardButton("Channel", url="https://t.me/+41b4MOF8hOk0YWFl")
                 ]
             ]
         )
